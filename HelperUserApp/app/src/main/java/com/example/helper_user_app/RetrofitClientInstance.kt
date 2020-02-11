@@ -10,7 +10,7 @@ class RetrofitClientInstance {
     var retrofit: Retrofit?=null
     //BASE_URL은 ngrok에 따라 달라진다, 참고해야할사항
 ;
-    val BASE_URL = "https://604c11eb.ngrok.io"
+    val BASE_URL = "https://6cae35ec.ngrok.io"
     //const val BASE_URL = "https://my-json-server.typicode.com/odyflame/testJson/MovieList"
 
     fun getRetrofitInstnace() :Retrofit {
